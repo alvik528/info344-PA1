@@ -40,7 +40,7 @@
 						$tpp = $row[3];
 						$ftp = $row[4];
 						$ppg = $row[5];
-						$player = new Player($name, $gp, $fgp, $tpp, $tpp, $ftp, $ppg);
+						$player = new Player($name, $gp, $fgp, $tpp, $ftp, $ppg);
 						echo ('<tr>');
 						echo ('<td>'.$player->GetName().'</td><td>'.$player->GetGP().'</td><td>'.$player->GetFGP().'</td><td>'.$player->GetTPP().'</td><td>'.$player->GetFTP().'</td><td>'.$player->GetPPG().'</td>');
 						echo ('</tr>');
